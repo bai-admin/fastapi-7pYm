@@ -62,7 +62,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "InvitationVerifyStatus"
           }
         },
         "required": [
@@ -98,7 +99,8 @@
             ],
             "nullable": true,
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "UpdatedBy"
           },
           "value": {
             "nullable": true,
@@ -169,7 +171,8 @@
         "title": "Projects.UpdateProjectCoverImageRequest",
         "type": "object",
         "x-struct": "Elixir.AgiDbWeb.Schemas.Projects.UpdateProjectCoverImageRequest",
-        "x-validate": null
+        "x-validate": null,
+        "x-speakeasy-schema-name": "UpdateProjectCoverImageRequest"
       },
       "Pagination.Last": {
         "description": "The number of records to return for before the provided cursor; used in combination with `before`",
@@ -589,7 +592,8 @@
             "nullable": true,
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "NullableSkipBehavior"
           },
           "tool": {
             "$ref": "#/components/schemas/Projects.Common.PropertyTool"
@@ -600,7 +604,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "FileCollectionPropertyType"
           }
         },
         "required": [
@@ -645,7 +650,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "InvitationStatus"
           },
           "workspace_id": {
             "$ref": "#/components/schemas/Common.UUID"
@@ -726,7 +732,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "SkipBehavior"
           },
           "tool": {
             "$ref": "#/components/schemas/Projects.Common.PropertyTool"
@@ -737,7 +744,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "SingleSelectPropertyType"
           }
         },
         "required": [
@@ -1081,7 +1089,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "SkipBehavior"
           },
           "tool": {
             "$ref": "#/components/schemas/Projects.Common.PropertyTool"
@@ -1092,7 +1101,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "CollectionPropertyType"
           }
         },
         "required": [
@@ -1170,7 +1180,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "SkipBehavior"
           },
           "tool": {
             "$ref": "#/components/schemas/Projects.Common.PropertyTool"
@@ -1452,7 +1463,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "SkipBehavior"
           },
           "tool": {
             "$ref": "#/components/schemas/Projects.Common.PropertyTool"
@@ -1463,7 +1475,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "CollectionPropertyType"
           }
         },
         "required": [
@@ -1588,7 +1601,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "QueryMessageType"
           },
           "updated_at": {
             "$ref": "#/components/schemas/Common.DateTime"
@@ -1839,7 +1853,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "SkipBehavior"
           },
           "tool": {
             "$ref": "#/components/schemas/Projects.Common.PropertyTool"
@@ -1850,7 +1865,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "ReferencePropertyType"
           }
         },
         "required": [
@@ -1935,7 +1951,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "ErrorMessageType"
           },
           "updated_at": {
             "$ref": "#/components/schemas/Common.DateTime"
@@ -2165,7 +2182,8 @@
               ],
               "type": "object",
               "x-struct": null,
-              "x-validate": null
+              "x-validate": null,
+              "x-speakeasy-schema-name": "SelectPropertyConfigUpsertOptionsItems"
             },
             "maxItems": 1000,
             "nullable": true,
@@ -2177,7 +2195,8 @@
         "title": "Projects.UpdateSingleSelectPropertyConfig",
         "type": "object",
         "x-struct": "Elixir.AgiDbWeb.Schemas.Projects.UpdateSingleSelectPropertyConfig",
-        "x-validate": null
+        "x-validate": null,
+        "x-speakeasy-schema-name": "SelectPropertyConfig"
       },
       "Projects.Entities.EntityBulkConfirmUploadResponse": {
         "additionalProperties": false,
@@ -2635,7 +2654,8 @@
             "nullable": true,
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "NullableSkipBehavior"
           },
           "tool": {
             "$ref": "#/components/schemas/Projects.Common.PropertyTool"
@@ -2646,7 +2666,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "ReferencePropertyType"
           }
         },
         "required": [
@@ -2705,7 +2726,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "SkipBehavior"
           },
           "tool": {
             "$ref": "#/components/schemas/Projects.Common.PropertyTool"
@@ -2716,7 +2738,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "NumberPropertyType"
           }
         },
         "required": [
@@ -2817,7 +2840,8 @@
             "nullable": true,
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "NullableSkipBehavior"
           },
           "tool": {
             "$ref": "#/components/schemas/Projects.Common.PropertyTool"
@@ -2828,7 +2852,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "CollectionPropertyType"
           }
         },
         "required": [
@@ -3322,7 +3347,8 @@
         "title": "TYPED_FILE_INTEGRATION",
         "type": "object",
         "x-struct": "Elixir.AgiDbWeb.Schemas.Projects.UpdateFieldValueFromIntegrationRequest",
-        "x-validate": null
+        "x-validate": null,
+        "x-speakeasy-schema-name": "TypedFileIntegration"
       },
       "Workspaces.UpdateWorkspaceRequest": {
         "additionalProperties": false,
@@ -3478,7 +3504,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "SkipBehavior"
           },
           "tool": {
             "$ref": "#/components/schemas/Projects.Common.PropertyTool"
@@ -3489,7 +3516,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "FileCollectionPropertyType"
           }
         },
         "required": [
@@ -3536,7 +3564,8 @@
         "title": "Billing.WorkspaceUsageResponse",
         "type": "object",
         "x-struct": "Elixir.AgiDbWeb.Schemas.Billing.WorkspaceUsageResponse",
-        "x-validate": null
+        "x-validate": null,
+        "x-speakeasy-schema-name": "WorkspaceUsageResponse"
       },
       "field_value": {
         "additionalProperties": false,
@@ -3840,7 +3869,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "NullableSkipBehavior"
           },
           "slug": {
             "pattern": "^[a-z_-][a-z0-9_-]*$",
@@ -4244,7 +4274,8 @@
               ],
               "type": "object",
               "x-struct": null,
-              "x-validate": null
+              "x-validate": null,
+              "x-speakeasy-schema-name": "SelectPropertyConfigUpsertOptionsItems"
             },
             "maxItems": 1000,
             "nullable": true,
@@ -4256,7 +4287,8 @@
         "title": "Projects.UpdateMultiSelectPropertyConfig",
         "type": "object",
         "x-struct": "Elixir.AgiDbWeb.Schemas.Projects.UpdateMultiSelectPropertyConfig",
-        "x-validate": null
+        "x-validate": null,
+        "x-speakeasy-schema-name": "SelectPropertyConfig"
       },
       "AskGo.CreateProjectFromPromptRequest": {
         "additionalProperties": false,
@@ -4434,7 +4466,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "ErrorMessageType"
           }
         },
         "required": [
@@ -4502,7 +4535,8 @@
           ],
           "type": "string",
           "x-struct": null,
-          "x-validate": null
+          "x-validate": null,
+          "x-speakeasy-schema-name": "OrderByItems"
         },
         "title": "Cases.ListCasesOrderBy",
         "type": "array",
@@ -4527,7 +4561,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "TextOrJsonType"
           }
         },
         "required": [
@@ -4607,7 +4642,8 @@
               ],
               "type": "string",
               "x-struct": null,
-              "x-validate": null
+              "x-validate": null,
+              "x-speakeasy-schema-name": "PermissionsItems"
             },
             "type": "array",
             "x-struct": null,
@@ -4692,7 +4728,8 @@
             "nullable": true,
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "NullableSkipBehavior"
           },
           "tool": {
             "$ref": "#/components/schemas/Projects.Common.PropertyTool"
@@ -4703,7 +4740,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "SingleSelectPropertyType"
           }
         },
         "required": [
@@ -5162,7 +5200,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "TextOrJsonType"
           }
         },
         "required": [
@@ -5191,6 +5230,11 @@
               "\t"
             ],
             "type": "string",
+            "x-speakeasy-enums": [
+              "COMMA",
+              "SEMICOLON",
+              "TAB"
+            ],
             "x-struct": null,
             "x-validate": null
           }
@@ -5412,7 +5456,8 @@
             "nullable": true,
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "NullableSkipBehavior"
           },
           "tool": {
             "$ref": "#/components/schemas/Projects.Common.PropertyTool"
@@ -5423,7 +5468,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "UserSelectPropertyType"
           }
         },
         "required": [
@@ -5903,7 +5949,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "SkipBehavior"
           },
           "tool": {
             "$ref": "#/components/schemas/Projects.Common.PropertyTool"
@@ -5914,7 +5961,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "FileCollectionPropertyType"
           }
         },
         "required": [
@@ -6046,7 +6094,8 @@
             "nullable": true,
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "NullableSkipBehavior"
           },
           "tool": {
             "$ref": "#/components/schemas/Projects.Common.PropertyTool"
@@ -6057,7 +6106,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "MultiSelectPropertyType"
           }
         },
         "required": [
@@ -6171,7 +6221,8 @@
             ],
             "nullable": true,
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "UpdatedBy"
           },
           "value": {
             "$ref": "#/components/schemas/EntityFilters.NullableFilter"
@@ -6307,7 +6358,8 @@
               ],
               "type": "string",
               "x-struct": null,
-              "x-validate": null
+              "x-validate": null,
+              "x-speakeasy-schema-name": "PermissionsItems"
             },
             "type": "array",
             "x-struct": null,
@@ -6369,7 +6421,8 @@
         "title": "TYPED_FILE_URL",
         "type": "object",
         "x-struct": "Elixir.AgiDbWeb.Schemas.Projects.UpdateFieldValueFromFileURLRequest",
-        "x-validate": null
+        "x-validate": null,
+        "x-speakeasy-schema-name": "TypedFileUrl"
       },
       "Users.MissingAccessItem": {
         "additionalProperties": false,
@@ -6534,7 +6587,8 @@
           ],
           "type": "string",
           "x-struct": null,
-          "x-validate": null
+          "x-validate": null,
+          "x-speakeasy-schema-name": "OrderByItems"
         },
         "nullable": true,
         "title": "Spaces.ListSpacesOrderBy",
@@ -6633,7 +6687,8 @@
             "nullable": true,
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "NullableSkipBehavior"
           },
           "tool": {
             "$ref": "#/components/schemas/Projects.Common.PropertyTool"
@@ -6843,7 +6898,8 @@
           ],
           "type": "string",
           "x-struct": null,
-          "x-validate": null
+          "x-validate": null,
+          "x-speakeasy-schema-name": "OrderByItems"
         },
         "nullable": true,
         "title": "Projects.ListProjectsOrderBy",
@@ -6937,7 +6993,8 @@
             ],
             "nullable": true,
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "UpdatedBy"
           },
           "value": {
             "items": {
@@ -6983,7 +7040,8 @@
             "nullable": true,
             "type": "integer",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "ValueScore"
           }
         },
         "title": "Projects.ListEntities.FieldManualMetadataResponse",
@@ -7132,7 +7190,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "InvitationStatus"
           },
           "workspace_id": {
             "$ref": "#/components/schemas/Common.UUID"
@@ -7340,7 +7399,8 @@
             ],
             "nullable": true,
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "UpdatedBy"
           },
           "value": {
             "nullable": true,
@@ -7452,7 +7512,8 @@
         "title": "Workspaces.UpdateWorkspaceIconRequest",
         "type": "object",
         "x-struct": "Elixir.AgiDbWeb.Schemas.Workspaces.UpdateWorkspaceIconRequest",
-        "x-validate": null
+        "x-validate": null,
+        "x-speakeasy-schema-name": "UpdateProjectCoverImageRequest"
       },
       "Common.Integer": {
         "title": "Common.Integer",
@@ -7651,7 +7712,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "SkipBehavior"
           },
           "tool": {
             "$ref": "#/components/schemas/Projects.Common.PropertyTool"
@@ -7662,7 +7724,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "UserSelectPropertyType"
           }
         },
         "required": [
@@ -7761,7 +7824,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "SkipBehavior"
           },
           "tool": {
             "$ref": "#/components/schemas/Projects.Common.PropertyTool"
@@ -7772,7 +7836,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "NumberPropertyType"
           }
         },
         "required": [
@@ -7894,7 +7959,8 @@
             ],
             "nullable": true,
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "UpdatedBy"
           },
           "value": {
             "nullable": true,
@@ -7968,7 +8034,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "SkipBehavior"
           },
           "tool": {
             "$ref": "#/components/schemas/Projects.Common.PropertyTool"
@@ -7979,7 +8046,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "ReferencePropertyType"
           }
         },
         "required": [
@@ -8184,7 +8252,8 @@
                   "nullable": true,
                   "type": "string",
                   "x-struct": null,
-                  "x-validate": null
+                  "x-validate": null,
+                  "x-speakeasy-schema-name": "TextOrJsonType"
                 },
                 "type": {
                   "enum": [
@@ -8193,7 +8262,8 @@
                   ],
                   "type": "string",
                   "x-struct": null,
-                  "x-validate": null
+                  "x-validate": null,
+                  "x-speakeasy-schema-name": "TextOrJsonType"
                 }
               },
               "required": [
@@ -8201,7 +8271,8 @@
               ],
               "type": "object",
               "x-struct": null,
-              "x-validate": null
+              "x-validate": null,
+              "x-speakeasy-schema-name": "FileCollectionPropertyConfigUpsertItems"
             },
             "nullable": true,
             "type": "array",
@@ -8255,7 +8326,8 @@
             ],
             "nullable": true,
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "UpdatedBy"
           },
           "value": {
             "items": {
@@ -8854,7 +8926,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "SkipBehavior"
           },
           "tool": {
             "$ref": "#/components/schemas/Projects.Common.PropertyTool"
@@ -8865,7 +8938,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "MultiSelectPropertyType"
           }
         },
         "required": [
@@ -9012,7 +9086,8 @@
             "nullable": true,
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "NullableSkipBehavior"
           },
           "tool": {
             "$ref": "#/components/schemas/Projects.Common.PropertyTool"
@@ -9023,7 +9098,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "NumberPropertyType"
           }
         },
         "required": [
@@ -9156,7 +9232,8 @@
             ],
             "nullable": true,
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "UpdatedBy"
           },
           "value": {
             "properties": {
@@ -9179,7 +9256,8 @@
             ],
             "type": "object",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "FieldNumberValue"
           }
         },
         "required": [
@@ -9926,7 +10004,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "QueryMessageType"
           },
           "updated_at": {
             "$ref": "#/components/schemas/Common.DateTime"
@@ -9972,7 +10051,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "InvitationVerifyStatus"
           }
         },
         "required": [
@@ -10142,7 +10222,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "SkipBehavior"
           },
           "tool": {
             "$ref": "#/components/schemas/Projects.Common.PropertyTool"
@@ -10184,7 +10265,8 @@
             "nullable": true,
             "type": "integer",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "ValueScore"
           }
         },
         "title": "Projects.Common.FieldManualMetadata",
@@ -10381,7 +10463,8 @@
         "title": "FILE_UPLOAD_FROM_URL",
         "type": "object",
         "x-struct": "Elixir.AgiDbWeb.Schemas.Cases.AsyncFileUploadFromURLRequest",
-        "x-validate": null
+        "x-validate": null,
+        "x-speakeasy-schema-name": "TypedFileUrl"
       },
       "Invitations.ProjectInvitationResponse": {
         "oneOf": [
@@ -10536,7 +10619,8 @@
             ],
             "nullable": true,
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "UpdatedBy"
           },
           "value": {
             "properties": {
@@ -10559,7 +10643,8 @@
             ],
             "type": "object",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "FieldNumberValue"
           }
         },
         "required": [
@@ -11368,7 +11453,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "AccessType"
           },
           "data": {
             "items": {
@@ -11835,7 +11921,8 @@
             ],
             "nullable": true,
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "UpdatedBy"
           },
           "value": {
             "nullable": true,
@@ -11894,7 +11981,8 @@
         "title": "FILE_UPLOAD_FROM_INTEGRATION",
         "type": "object",
         "x-struct": "Elixir.AgiDbWeb.Schemas.Cases.AsyncFileUploadFromIntegrationRequest",
-        "x-validate": null
+        "x-validate": null,
+        "x-speakeasy-schema-name": "TypedFileIntegration"
       },
       "Tools.KeyManager.ToolModelConfigResponse": {
         "additionalProperties": false,
@@ -12507,7 +12595,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "SkipBehavior"
           },
           "tool": {
             "$ref": "#/components/schemas/Projects.Common.PropertyTool"
@@ -12518,7 +12607,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "SingleSelectPropertyType"
           }
         },
         "required": [
@@ -12549,7 +12639,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "TextOrJsonType"
           }
         },
         "required": [
@@ -12640,7 +12731,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "AccessType"
           }
         },
         "required": [
@@ -12910,7 +13002,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "SkipBehavior"
           },
           "tool": {
             "$ref": "#/components/schemas/Projects.Common.PropertyTool"
@@ -12921,7 +13014,8 @@
             ],
             "type": "string",
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "MultiSelectPropertyType"
           }
         },
         "required": [
@@ -13042,7 +13136,8 @@
                   "nullable": true,
                   "type": "string",
                   "x-struct": null,
-                  "x-validate": null
+                  "x-validate": null,
+                  "x-speakeasy-schema-name": "TextOrJsonType"
                 },
                 "type": {
                   "enum": [
@@ -13051,7 +13146,8 @@
                   ],
                   "type": "string",
                   "x-struct": null,
-                  "x-validate": null
+                  "x-validate": null,
+                  "x-speakeasy-schema-name": "TextOrJsonType"
                 }
               },
               "required": [
@@ -13059,7 +13155,8 @@
               ],
               "type": "object",
               "x-struct": null,
-              "x-validate": null
+              "x-validate": null,
+              "x-speakeasy-schema-name": "FileCollectionPropertyConfigUpsertItems"
             },
             "nullable": true,
             "type": "array",
@@ -13124,7 +13221,8 @@
         "title": "Billing.ProjectUsageResponse",
         "type": "object",
         "x-struct": "Elixir.AgiDbWeb.Schemas.Billing.ProjectUsageResponse",
-        "x-validate": null
+        "x-validate": null,
+        "x-speakeasy-schema-name": "WorkspaceUsageResponse"
       },
       "TYPED_TEXT": {
         "additionalProperties": false,
@@ -13210,7 +13308,8 @@
             ],
             "nullable": true,
             "x-struct": null,
-            "x-validate": null
+            "x-validate": null,
+            "x-speakeasy-schema-name": "UpdatedBy"
           },
           "value": {
             "$ref": "#/components/schemas/EntityFilters.NullableFilter"
@@ -33927,7 +34026,92 @@
       "variables": {}
     }
   ],
-  "tags": [],
+  "tags": [
+    {
+      "name": "ApiKeys",
+      "description": "Operations related to ApiKeys"
+    },
+    {
+      "name": "AskGo",
+      "description": "Operations related to AskGo"
+    },
+    {
+      "name": "Automations",
+      "description": "Operations related to Automations"
+    },
+    {
+      "name": "Billing",
+      "description": "Operations related to Billing"
+    },
+    {
+      "name": "Cases",
+      "description": "Operations related to Cases"
+    },
+    {
+      "name": "Entities",
+      "description": "Operations related to Entities"
+    },
+    {
+      "name": "Exports",
+      "description": "Operations related to Exports"
+    },
+    {
+      "name": "Folders",
+      "description": "Operations related to Folders"
+    },
+    {
+      "name": "Hubs",
+      "description": "Operations related to Hubs"
+    },
+    {
+      "name": "Imports",
+      "description": "Operations related to Imports"
+    },
+    {
+      "name": "IntegrationConnections",
+      "description": "Operations related to IntegrationConnections"
+    },
+    {
+      "name": "Library",
+      "description": "Operations related to Library"
+    },
+    {
+      "name": "OAuth",
+      "description": "Operations related to OAuth"
+    },
+    {
+      "name": "ProjectInvitations",
+      "description": "Operations related to ProjectInvitations"
+    },
+    {
+      "name": "Projects",
+      "description": "Operations related to Projects"
+    },
+    {
+      "name": "Spaces",
+      "description": "Operations related to Spaces"
+    },
+    {
+      "name": "Templates",
+      "description": "Operations related to Templates"
+    },
+    {
+      "name": "Tools",
+      "description": "Operations related to Tools"
+    },
+    {
+      "name": "Users",
+      "description": "Operations related to Users"
+    },
+    {
+      "name": "WorkspaceInvitations",
+      "description": "Operations related to WorkspaceInvitations"
+    },
+    {
+      "name": "Workspaces",
+      "description": "Operations related to Workspaces"
+    }
+  ],
   "x-readme": {
     "explorer-enabled": true,
     "proxy-enabled": true
